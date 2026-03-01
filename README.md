@@ -21,7 +21,7 @@ A modern, clean, and efficient exam proctoring platform with real-time AI monito
 - **Role-based Authentication** - Separate portals for Students and Teachers
 - **AI-Powered Proctoring** - Real-time face detection and audio monitoring
 - **Multi-Face Detection** - Detects multiple people in webcam feed (NEW!)
-- **Real-time Violation Alerts** - Instant teacher notifications via WebSocket (NEW!)
+- **Real-time Violation Alerts** - Instant teacher notifications via - (NEW!)
 - **Alice AI Assistant** - Built-in AI chatbot for instant help and support
 - **Quiz Management** - Create, manage, and conduct online exams
 - **Violation Detection** - Automatic flagging of suspicious behavior

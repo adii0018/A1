@@ -5,10 +5,16 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alice Exam Proctor - AI-Powered Online Proctoring</title>
-    <script type="module" crossorigin src="/assets/index-yc546Nni.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BVIvnabU.css">
+    
+    <!-- Face Detection Libraries -->
+    <!-- Option 1: face-api.js (Lightweight) -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.min.js"></script>
+    
+    <!-- Option 2: OpenCV.js (More Accurate) -->
+    <script async src="https://docs.opencv.org/4.x/opencv.js" onload="console.log('OpenCV.js loaded')"></script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
